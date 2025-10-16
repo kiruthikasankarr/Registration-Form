@@ -20,14 +20,13 @@ body{
   input[type="email"],
   input[type="number"],
   input[type="date"],
-  textarea {
+  textarea{
     width: 300px;
     padding: 6px;
     border: 1px solid #ccc;
     border-radius: 5px;
   } 
   textarea {
-    width: 300px;
     height: 70px;
     resize: none;
   }
@@ -43,7 +42,6 @@ input[type="checkbox"] + label {
 }
 .qualification-section {
   display: flex;
-  align-items: flex-start;
   margin-top: 10px;
 }
 .qualification-section label {
