@@ -4,8 +4,8 @@ This is my demo registration form hosted on GitHub Pages.
 
 Check it out here: [Live Demo](https://kiruthikasankarr.github.io/Registration-Form/)
 
-![Form Screenshot](your-image.jpg)
+![Form Screenshot](Demo.png)
 
 Or click the image to visit the live demo:
 
-[![Form Screenshot](images/your-image.jpg)](https://kiruthikasankarr.github.io/Registration-Form/)
+[![Form Screenshot](Demo.png)](https://kiruthikasankarr.github.io/Registration-Form/)
