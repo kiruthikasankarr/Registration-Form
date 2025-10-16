@@ -6,4 +6,6 @@ Check it out here: [Live Demo](https://kiruthikasankarr.github.io/Registration-F
 
 Or click the image to visit the live demo:
 
-[![Form Screenshot](Demo.png)](https://kiruthikasankarr.github.io/Registration-Form/)
+<a href="https://kiruthikasankarr.github.io/Registration-Form/">
+  <img src="Demo.png" alt="Form Screenshot" width="300">
+</a>
