@@ -1,0 +1,112 @@
+body{
+    background-color: #e69500;
+    display: flex;
+    justify-content: center;
+  }
+  .container {
+    background-color: #fefefe;
+    width: 65%;
+    padding: 40px;
+    border-radius: 10px;
+  }
+  form label {
+    display: inline-block;
+    width: 150px;
+    font-weight: bold;
+    color: #000;
+    margin: 10px 0;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  input[type="date"],
+  textarea {
+    width: 300px;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  } 
+  textarea {
+    width: 300px;
+    height: 70px;
+    resize: none;
+  }
+input[type="radio"] + label {
+  font-size: 14px;
+  color: #333;
+  font-weight: bold;
+}
+input[type="checkbox"] + label {
+  font-size: 14px;
+  color: #333;
+  font-weight: bold;
+}
+.qualification-section {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 10px;
+}
+.qualification-section label {
+  width: 150px;
+  font-weight: bold;
+  margin-right: 20px;
+  color: #000;
+}
+.qualification-table {
+  flex: 1;
+}
+ table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+th {
+  background-color: #e69500;
+  color: white;
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+td {
+  border: 1px solid #ccc;
+  padding: 6px;
+  background-color: #fff;
+}
+.qualification-table input[type="text"] {
+  width: 70%;
+  outline: none;
+  text-align: center;
+  background-color: #f8f8f8;
+  padding: 5px;
+  border-radius: 4px;
+}
+.qualification-table input[type="text"]:focus {
+  background-color: #fff;
+  border: 1px solid #e69500;
+}
+button {
+    background-color: #ffffff;
+    color: rgb(255, 196, 2);
+    padding: 8px 20px;
+    border-color: orange ;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+button:hover {
+    background-color: #ffc04a;
+    color: #fff;
+  }
+select {
+    padding: 5px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    width: 100px;
+  }
+small {
+    color: #555;
+    font-size: 12px;
+    margin-left: 10px;
+  }
