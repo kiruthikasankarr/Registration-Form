@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Document</title>
+    <title>Register Form</title>
      <link rel="stylesheet" href="style.css">
      
 </head>
 <body>
     <div class="container">
-    <form action="RegistrationForm">
-        <label for="Fname">First Name: </label>
-        <input type="text" id="Fname" placeholder="First Name">
+    <form>
+        <label for="Fname">First Name </label>
+        <input type="text" id="Fname" placeholder="First Name" required>
         <small>(Max 30 Characters A-Z and a-z)</small> <br>
 
-        <label for="Lname">Last Name:</label>
-        <input type="text" id="Lname" placeholder="Last Name">
+        <label for="Lname">Last Name</label>
+        <input type="text" id="Lname" placeholder="Last Name" required>
         <small>(Max 30 Characters A-Z and a-z)</small> <br>
 
-        <label for="dob">Date Of Birth:</label>
+        <label for="dob">Date Of Birth</label>
         <select id="day" name="day">
             <option value="">Day</option>
             <option>1</option>
@@ -35,32 +35,32 @@
           </select>
           <br>
 
-        <label for="Email">Email Id:</label>
-        <input type="email" id="Email" placeholder="Email Id"><br>
+        <label for="Email">Email Id</label>
+        <input type="email" id="Email" placeholder="Email Id" required><br>
 
-        <label for="Gender"> Gender:</label>
+        <label for="Gender"> Gender</label>
         <input type="radio" name="gender" id="Male" >
         <label for="Male">Male</label>
        
         <input type="radio" name="gender" id="Female">
          <label for="Female">Female</label><br>
 
-        <label for="Address">Address:</label>
+        <label for="Address">Address</label>
         <textarea name="" id="Address"></textarea><br>
 
-        <label for="Pincode">Pincode:</label>
-        <input type="number" id="pincode" placeholder="Pin Code"><br>
+        <label for="Pincode">Pincode</label>
+        <input type="number" id="pincode" placeholder="Pin Code" required><br>
 
-        <label for="state"> State:</label>
+        <label for="state"> State</label>
         <input type="text"  id="state" placeholder="State"><br>
 
-        <label for="City">City:</label>
+        <label for="City">City</label>
         <input type="text" id="City" placeholder="City"><br>
 
-        <label for="Country">Country:</label>
+        <label for="Country">Country</label>
         <input type="text" id="Country" placeholder="Country"><br>
 
-        <label for="Hobbies">Hobbies:</label>
+        <label for="Hobbies">Hobbies</label>
 
         <input type="checkbox" name="hobby" id="Drawing" >
         <label for="Drawing">Drawing</label>
@@ -75,7 +75,7 @@
         <label for="Sketching">Sketching</label><br>
 
         <div class="qualification-section">
-            <label for="Qualification">Qualification:</label>
+            <label for="Qualification">Qualification</label>
           
             <div class="qualification-table">
               <table>
@@ -115,7 +115,7 @@
           </div>
           <br>
           
-        <label for="course">Courses:</label>
+        <label for="course">Courses</label>
         <input type="radio" name="domain" id="Bca">
         <label for="Bca">BCA</label>
 
@@ -127,5 +127,4 @@
 
 </div>
 </body>
-
 </html>
