@@ -7,5 +7,5 @@ Check it out here: [Live Demo](https://kiruthikasankarr.github.io/Registration-F
 Or click the image to visit the live demo:
 
 <a href="https://kiruthikasankarr.github.io/Registration-Form/">
-  <img src="Demo.png" alt="Form Screenshot" width="300">
+  <img src="Demo.png" alt="Form Screenshot" width="500">
 </a>
